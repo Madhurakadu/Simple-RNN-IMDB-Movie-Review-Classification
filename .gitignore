@@ -1,0 +1,45 @@
+# Python cache / compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.h5
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Streamlit cache
+.streamlit/
+**/.streamlit/
+
+# Logs & temp files
+*.log
+*.out
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Large datasets / models (optional)
+data/
+models/*.h5
+*.csv
+*.tsv
+*.json
+
+# Exclude environment and dependency files
+*.egg-info/
+.eggs/
+dist/
+build/
